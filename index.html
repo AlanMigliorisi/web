@@ -18,11 +18,18 @@
     </header>
      <main>
       <section>
-        <figure>
-          <img src="./Assets/small.jpg" alt="Perro Samoyed">
-          <figcaption>Es un perro samoyed</figcaption>
-        </figure>
-       <video src="" controls></video>
+        <form action="">
+          <label for="Nombre">
+            <span>Cuál es tu Nombre?</span>
+            <input type="text" id="Nombre" placeholder="Tu nombre">
+          <label for="Que día es hoy">
+            <span>Qué día es hoy?</span>
+            <input type="date" id="Que día es hoy">
+          <label for="Horario">
+            <span>Que horario es?</span>
+            <input type="time" id="Horario">
+          </label>
+        </form>
       </section>
       <ul>
         <li>Frutas</li>
@@ -40,6 +47,51 @@
         <li><a href="https://twitter.com/">Tomate</a></li>
         </ol>
       </ul>
+      <form action="">
+        <label for="Nombre">
+          <span>¿Cuál es tu nombre?</span>
+          <input type="text" id="Nombre" name="Nombre" autocomplete="name" placeholder="Tu Nombre" required>
+        </label>
+        <label for="Correo">
+          <span>¿Cuál es tu correo?</span>
+          <input type="email" id="Correo" name="Correo" autocomplete="email" placeholder="Tu Correo electronico" required>
+        </label>
+        <label for="Pais">
+          <span>¿Cuál es tu país?</span>
+          <input type="text" id="Pais" name="Pais" autocomplete="country" placeholder="Tu país" required>
+        </label>
+        <label for="cp">
+          <span>¿Cuál es tu Codigo Postal?</span>
+          <input type="text" id="cp" name="cp" autocomplete="postal-code" placeholder="Tu codigo postal" required>
+        </label>
+        <input type="submit">
+      </form>
+      <!-- <form action="">
+        <label for="Hora">
+          <span>Hora</span>
+          <input type="time" id="hora" name="Hora">
+        </label>
+        <label for="Día">
+          <span>Día</span>
+          <input type="date" id="Día" name="Día">
+        </label>
+        <label for="Semana">
+          <span>Semana</span>
+          <input type="week" id="Semana" name="Semana">
+          <label for="Mes">
+            <span>Mes</span>
+            <input type="month" id="Mes" name="Mes">
+            <input type="submit">
+          </label>
+        </label>
+        <form action="">
+          <label for="Calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="Calendario" name="Calendario">
+          </label>
+          <input type="submit">
+        </form>
+      </form> -->
      </main>
       <footer>
 
