@@ -1,0 +1,29 @@
+p {
+    color: blue;
+    font-size: 30px;
+  }
+
+body {
+    background-color: aquamarine;
+}
+
+
+  /*Class*/
+  .parrafo {
+    color: red;
+  }
+
+  /* ID */
+  #texto {
+    color:mediumvioletred;
+    font-size: 20px;
+  }
+
+  #Nombre {
+    background-color:burlywood;
+  }
+
+  #Frutas {
+    font-size: 30px;
+    color: blue;
+  }
