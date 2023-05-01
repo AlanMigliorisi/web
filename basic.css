@@ -4,13 +4,44 @@ p {
   }
 
 body {
-    background-color: aquamarine;
+    background-color:white;
 }
 
 
   /*Class*/
   .parrafo {
     color: red;
+  }
+
+  .main_nav {
+    margin-top: 10px;
+    padding-left: 0;
+    list-style: none;
+    background-color: darkorange;
+    padding-top: 8px;
+  }
+
+  .main_nav__item {
+    display: inline-block;
+    font-size: px;
+    padding-top: 0px;
+    margin-bottom: 8px;
+    padding-left: 7px;
+
+  }
+
+  .main_nav__item a {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    /* background-color: white; */
+    background-size: 2px;
+  }
+
+  .main_nav__item a:hover {
+    color: yellow;
   }
 
   /* ID */
